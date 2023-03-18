@@ -1,8 +1,12 @@
-<p>
-  orders works!
-</p>
+<div>
+  <h2>Eagerly Loaded</h2>
+  <button (click)="childOne = !childOne">
+    Load child {{ childOne ? 2 : 1 }}
+  </button>
 
-
+  <app-orders-child-one *ngIf="childOne"></app-orders-child-one>
+  <app-orders-child-two *ngIf="!childOne"></app-orders-child-two>
+</div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

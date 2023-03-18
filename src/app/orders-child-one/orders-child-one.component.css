@@ -1,3 +1,9 @@
+.child-border {
+  border: 1px solid blue;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

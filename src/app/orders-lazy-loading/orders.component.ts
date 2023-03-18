@@ -2,12 +2,12 @@ import { Component } from "@angular/core";
 import { Router } from "@angular/router";
 
 @Component({
-  selector: "app-orders",
+  selector: "app-orders-lazy",
   templateUrl: "./orders.component.html",
   styleUrls: ["./orders.component.css"],
 })
-export class OrdersComponent {
-  childOne = true;
+export class OrdersLazyComponent {
+  constructor(readonly router: Router) {}
 }
 
 /*

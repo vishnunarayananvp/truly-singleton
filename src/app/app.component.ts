@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Lazy loading feature modules';
+  title = 'Module hierarchy test';
 }
 
 
